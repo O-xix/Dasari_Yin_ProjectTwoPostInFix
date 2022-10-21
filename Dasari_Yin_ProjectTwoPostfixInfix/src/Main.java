@@ -13,12 +13,14 @@ public class Main {
         System.out.println("Infix: " + infixString);
 
          */
+        CalculatorGUI calculatorGUI = new CalculatorGUI();
+        calculatorGUI.init(calculatorGUI);
         while (true) {
-            String infixString = "";
-            infixString = JOptionPane.showInputDialog(null, "Infix Input");
+            //String infixString = "";
+            //infixString = JOptionPane.showInputDialog(null, "Infix Input");
             //System.out.println("Infix: " + infixString);
-            String postfixString = infixToPostfix(infixString);
-            JOptionPane.showMessageDialog(null, ("Postfix Result: " + postfixString));
+            //String postfixString = infixToPostfix(infixString);
+            //JOptionPane.showMessageDialog(null, ("Postfix Result: " + postfixString));
             //System.out.println("Postfix: " + postfixString);
             //System.out.println(calculate(postfixString));
         }
