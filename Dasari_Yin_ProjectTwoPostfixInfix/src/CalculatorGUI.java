@@ -18,6 +18,7 @@ public class CalculatorGUI extends JFrame implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         textfield = new JTextField(16);
+        textfield.setEditable(false);
         //buttons
         Button one, two, three, four, five, six, seven , eight, nine, zero, add, subtract, multiply, divide, startpara, endpara, clear, equals;
 
